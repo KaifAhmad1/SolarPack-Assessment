@@ -1,37 +1,73 @@
 # Solar Energy Forecasting and Solar Panel Angle Optimization 
 This repository contains a comprehensive solution to two distinct problems related to solar energy utilization:
 
-## **Solar Energy Production Forecasting Model:**
-Problem Statement
-Accurate prediction of solar energy output is crucial for grid management and planning. The integration of solar energy into the power grid is a key component of the transition towards renewable energy. However, solar energy production is highly dependent on various environmental factors and temporal variables.
+## **Solar Energy Production Forecasting Model**
+- **Problem Statement:**
+The efficiency of solar panels is highly dependent on their orientation concerning the sun. Finding the optimal angles for solar panel placement can significantly enhance energy capture and utilization.
 
-Objective
-Develop a machine learning model capable of forecasting solar energy production based on publicly available environmental data. The model should provide reliable forecasts for both short-term and long-term periods.
+- **Objective:**
+The notebook aims to optimize solar panel performance using machine learning by integrating and preprocessing solar-related datasets, analyzing solar position and irradiance, exploring environmental factors, and implementing predictive models to predict key performance metrics. Through this analysis, it seeks to provide actionable insights for enhancing solar energy efficiency and sustainability.
 
-Solution
-We have developed two machine learning models to address short-term and long-term forecasting needs:
+- **Solution:** 
 
-Short-term Solar Energy Forecasting Model: This model predicts solar power output for the next 24 hours. It utilizes historical weather data, solar irradiance, and other relevant features to make accurate predictions.
-
-Long-term Solar Energy Forecasting Model: Extending the forecasting horizon to the next 7 days, this model considers seasonal patterns, historical trends, and other long-term factors to provide reliable forecasts of solar energy production.
-
-Repository Structure
-/data: Contains sample datasets used for model training and validation.
-/short_term_model: Contains the implementation of the short-term forecasting model.
-/long_term_model: Contains the implementation of the long-term forecasting model.
-README.md: Main readme file detailing project overview, setup instructions, and usage guidelines.
-Usage
-Once the models are trained, they can be used to make predictions on new data. Detailed instructions on how to use the models and interpret the results are available in the documentation.
 
 ## **Optimal Solar Panel Angle Optimization Model**
-Problem Statement
-The efficiency of solar panels is highly dependent on their orientation with respect to the sun. Finding the optimal angles for solar panel placement can significantly enhance energy capture and utilization.
+- **Problem Statement:**
+The efficiency of solar panels is highly dependent on their orientation concerning the sun. Finding the optimal angles for solar panel placement can significantly enhance energy capture and utilization.
 
-Objective
-Develop an algorithm that computes the optimal solar panel angles based on seasonal sun positions to maximize energy capture throughout the year.
+- **Objective:**
+The notebook aims to optimize solar panel performance using machine learning by integrating and preprocessing solar-related datasets, analyzing solar position and irradiance, exploring environmental factors, and implementing predictive models to predict key performance metrics. Through this analysis, it seeks to provide actionable insights for enhancing solar energy efficiency and sustainability.
 
-Solution
-We have implemented an algorithm that suggests the best solar panel angles for each day of the year. By considering seasonal variations in sun position, weather patterns, and other environmental factors, the algorithm provides precise recommendations for solar panel orientation.
+- **Solution:**
+The objective of this notebook is to provide a comprehensive analysis and optimization framework for solar panel performance using machine learning and deep learning techniques. The notebook aims to achieve the following goals:
+
+- ###  **Key Components:**
+
+ ####  **Data Loading and Preprocessing:** 
+  - Import necessary libraries and load datasets related to solar angles, solar forecasting, and historical weather data.
+  - Combine data from different sources for comprehensive analysis.
+  - Explore and preprocess loaded datasets including handling missing values and converting columns to appropriate data types.
+  
+#### **Solar Position Analysis:**
+
+- Calculate various solar position parameters such as zenith angle, azimuth, and elevation.
+- Analyze the distribution and temporal patterns of solar position variables.
+- Gain insights into seasonal patterns and atmospheric effects on solar position.
+  
+#### **Total Irradiance Calculation and Analysis:**
+
+- Calculate total irradiance components like POA global, direct, diffuse, sky diffuse, and ground diffuse.
+- Analyze seasonal variations and their impact on solar panel efficiency.
+  
+#### **Environmental Factor Analysis:**
+
+- Analyze environmental factors such as humidity, temperature, wind speed, and surface albedo.
+- Understand the typical ranges and distributions of environmental factors.
+  
+#### **Feature Importance and Model Implementation:**
+
+- Perform feature importance analysis and model implementation using Random Forest Regressor and Gradient Boosting Regressor.
+- Train models for target variables including POA Global Irradiance, Surface Tilt, and Surface Azimuth.
+- Evaluate model performance using mean squared error (MSE) and R-squared (R2) scores.
+  
+#### **Deep Neural Network (LSTM) Model:**
+
+- Implement a Long Short-Term Memory (LSTM) neural network for predictive modeling.
+- Preprocess data, define the model architecture, and compile it with appropriate loss functions and optimizers.
+- Monitor training and validation losses and mean absolute error (MAE).
+
+#### **Output:**
+- Merged dataset containing solar angles, weather conditions, and geographical location.
+- Model performance metrics including MSE, R2 scores, and feature importance rankings.
+
+#### **Dependencies:**
+
+- Libraries such as pandas, numpy, and pvlib for data manipulation and solar-related calculations.
+
+#### **Insights:** 
+
+- Over 20,000 entries in the merged dataset, providing significant data for analysis and model training.
+- Comprehensive consideration of various parameters such as solar angles, environmental factors, and total irradiance for optimizing solar panel performance.
 
 Repository Structure
 /panel_angle_algorithm: Contains the implementation of the solar panel angle optimization algorithm.
