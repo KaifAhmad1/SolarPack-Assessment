@@ -3,12 +3,47 @@ This repository contains a comprehensive solution to two distinct problems relat
 
 ## **Solar Energy Production Forecasting Model**
 - **Problem Statement:**
-The efficiency of solar panels is highly dependent on their orientation concerning the sun. Finding the optimal angles for solar panel placement can significantly enhance energy capture and utilization.
+Design and develop a machine learning model capable of forecasting solar energy production.
 
 - **Objective:**
-The notebook aims to optimize solar panel performance using machine learning by integrating and preprocessing solar-related datasets, analyzing solar position and irradiance, exploring environmental factors, and implementing predictive models to predict key performance metrics. Through this analysis, it seeks to provide actionable insights for enhancing solar energy efficiency and sustainability.
+The objective of this problem statement is to develop a machine learning model capable of accurately forecasting energy production based on environmental factors such as ambient temperature, humidity, and wind speed.
 
 - **Solution:** 
+The solution provides a machine learning model for forecasting energy production. It involves data loading, exploration, preprocessing, and building various models including Decision Tree, Random Forest, Gradient Boosting, and LSTM. The models are trained, evaluated, and compared to identify the most effective approach for accurate energy production forecasting.
+
+- ###  **Key Components:**
+  
+#### **Installation and Imports**
+- Ensure necessary packages like `pvlib` installed along with their dependencies.
+
+#### **Data Loading and Exploration**
+- Load data from a CSV file into a Pandas DataFrame. Perform initial exploration including checking data information, identifying null values, and converting date and time columns into datetime format.
+
+#### **Data Preprocessing**
+- Set date and time columns as the index and drop redundant columns.
+
+#### **Exploratory Data Analysis (EDA)**
+- Perform statistical summaries, correlation analysis, and visualizations like pairplots and correlation heatmaps to gain insights into the data.
+
+#### **Time Series Analysis**
+- Generate time series plots for power output, humidity, and wind speed. Explore seasonal variations and trends in ambient temperature and humidity using box plots and histograms.
+
+#### **Model Building and Training**
+- Build and train various machine learning models including Decision Tree Regressor, Random Forest Regressor, Gradient Boosting Regressor, and Deep Neural Network LSTM Model.
+
+#### **Model Loss over Epochs**
+- Visualize training and validation loss over epochs for the LSTM model.
+
+#### **Saving and Loading the Model**
+- Save the trained LSTM model to a file and load it back for further evaluation or deployment.
+
+#### **Evaluation of Loaded LSTM Model**
+- Evaluate the loaded LSTM model by making predictions on the test data and calculating metrics like mean squared error and mean absolute error.
+
+#### **Model Comparison**
+- Compare the mean squared error of different models (Decision Tree, Random Forest, Gradient Boosting, LSTM) using a line plot for better understanding and selection.
+
+
 
 
 ## **Optimal Solar Panel Angle Optimization Model**
