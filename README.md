@@ -1,4 +1,4 @@
-# Solar Energy Forecasting and Solar Panel Angle Optimization 
+# SolarPack Problem Statement: Solar Energy Forecasting and Solar Panel Angle Optimization 
 This repository contains a comprehensive solution to two distinct problems related to solar energy utilization:
 
 ## **Solar Energy Production Forecasting Model**
