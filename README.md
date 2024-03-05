@@ -124,6 +124,8 @@ The objective of this notebook is to provide a comprehensive analysis and optimi
 License
 This project is not under any license
 
+
+
 Author
 Mohd Kaif
 
@@ -132,5 +134,7 @@ References
 - [Solar Panel Tilt Angle Optimization Using Machine Learning Model: A Case Study of Daegu City, South Korea](https://www.mdpi.com/1996-1073/13/3/529)
 - [Optimal Photovoltaic Panel Direction and Tilt Angle Prediction Using Stacking Ensemble Learning](https://www.frontiersin.org/articles/10.3389/fenrg.2022.865413/full)
 - [Development of Hybrid Model based on Artificial Intelligence for Maximizing Solar Energy Yield](https://www.researchgate.net/publication/376601883_Development_of_Hybrid_Model_based_on_Artificial_Intelligence_for_Maximizing_Solar_Energy_Yield)
-- Development of Hybrid Model based on Artificial Intelligence for Maximizing Solar Energy Yield
-
+- [Maximizing Annual Energy Yield in a Grid-Connected PV Solar Power Plant: Analysis of Seasonal Tilt Angle and Solar Tracking Strategies](https://www.mdpi.com/2071-1050/15/14/11053)
+- [A Practical Approach for Estimating the Optimum Tilt Angle of a Photovoltaic Panel for a Long Period—Experimental Recorded Data](https://www.researchgate.net/publication/356494545_A_Practical_Approach_for_Estimating_the_Optimum_Tilt_Angle_of_a_Photovoltaic_Panel_for_a_Long_Period-Experimental_Recorded_Data)
+- [World estimates of PV optimal tilt angles and ratios of sunlight incident upon tilted and tracked PV panels relative to horizontal panels](https://www.sciencedirect.com/science/article/abs/pii/S0038092X1830375X)
+  
