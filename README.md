@@ -112,15 +112,17 @@ The objective of this notebook is to provide a comprehensive analysis and optimi
 
 #### **Notebook Link:** 
 - Please find the Google Colab link provided below for an in-depth exploration of our data analysis and corresponding graphs. To enhance your understanding, we've utilized Plotly for visualization, offering dynamic charts and plots.It's worth noting that these dynamic visualizations are not saved on GitHub, so the Colab environment is essential for accessing them effectively.
-- [National Solar Radiation Database(NSRDB) Solar Radiation and Meteorological Dataset](https://www.kaggle.com/datasets/ibrahimkiziloklu/solar-radiation-dataset)
+- [Tilt Angle Optimization and suggestions](https://colab.research.google.com/github/KaifAhmad1/SolarPack-Assessment/blob/main/Solar_Panel_Tilt_Angle_Optimization_and_Suggestions.ipynb)
 
 
 #### **Datasets Used:** 
 [National Solar Radiation Database(NSRDB) Solar Radiation and Meteorological Dataset](https://www.kaggle.com/datasets/ibrahimkiziloklu/solar-radiation-dataset)
+[Horizontal photovoltaic power output data for 12 sites in the Northern Hemisphere](https://www.kaggle.com/datasets/saurabhshahane/northern-hemisphere-horizontal-photovoltaic)
+
 
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is not under any license
 
 Author
 Mohd Kaif
