@@ -59,7 +59,7 @@ The objective of this notebook is to provide a comprehensive analysis and optimi
 - ###  **Key Components:**
 
  ####  **Data Loading and Preprocessing:** 
-  - Import necessary libraries and load datasets related to solar angles, solar forecasting, and historical weather data.
+  - Import necessary libraries and load datasets related to `solar angles`, `solar forecasting`, and `historical weather data`.
   - Combine data from different sources for comprehensive analysis.
   - Explore and preprocess loaded datasets including handling missing values and converting columns to appropriate data types.
   
@@ -93,37 +93,31 @@ The objective of this notebook is to provide a comprehensive analysis and optimi
 
 #### **Output:**
 - Merged dataset containing solar angles, weather conditions, and geographical location.
-- Model performance metrics including MSE, R2 scores, and feature importance rankings.
+- Model performance metrics including `MSE`, `R2 scores`, and feature importance rankings.
 
 #### **Dependencies:**
 
-- Libraries such as pandas, numpy, and pvlib for data manipulation and solar-related calculations.
+- Libraries such as pandas, numpy, pvlib, sklearn, plotly, tensorflow, keras for data manipulation and solar-related calculations.
 
 #### **Insights:** 
 
 - Over 20,000 entries in the merged dataset, providing significant data for analysis and model training.
 - Comprehensive consideration of various parameters such as solar angles, environmental factors, and total irradiance for optimizing solar panel performance.
 
-Repository Structure
-/panel_angle_algorithm: Contains the implementation of the solar panel angle optimization algorithm.
-README.md: Main readme file detailing project overview, setup instructions, and usage guidelines.
-Usage
-Users can interact with the algorithm to compute optimal solar panel angles for any given location and date. Detailed instructions on how to use the algorithm and interpret the results are available in the documentation.
+#### **Notebook Link:** 
+- Please find the Google Colab link provided below for an in-depth exploration of our data analysis and corresponding graphs. To enhance your understanding, we've utilized Plotly for visualization, offering dynamic charts and plots.It's worth noting that these dynamic visualizations are not saved on GitHub, so the Colab environment is essential for accessing them effectively.
+- [National Solar Radiation Database(NSRDB) Solar Radiation and Meteorological Dataset](https://www.kaggle.com/datasets/ibrahimkiziloklu/solar-radiation-dataset)
 
-Setup Instructions
-To set up the project locally, follow the setup instructions provided in the respective directories (short_term_model, long_term_model, panel_angle_algorithm).
 
-Contributing
-Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+#### **Datasets Used:** 
+[National Solar Radiation Database(NSRDB) Solar Radiation and Meteorological Dataset](https://www.kaggle.com/datasets/ibrahimkiziloklu/solar-radiation-dataset)
+
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Authors
-Your Name
-Acknowledgments
-We would like to thank the following individuals and organizations for their contributions and support:
+Author
+Mohd Kaif
 
-[List any acknowledgments here]
-References
-[List any external data sources or references used in the project]
+
+References 
