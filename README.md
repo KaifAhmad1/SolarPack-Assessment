@@ -43,6 +43,12 @@ The solution provides a machine learning model for forecasting energy production
 #### **Model Comparison**
 - Compare the mean squared error of different models (Decision Tree, Random Forest, Gradient Boosting, LSTM) using a line plot for better understanding and selection.
 
+#### **Dataset Used**
+[Horizontal photovoltaic power output data for 12 sites in the Northern Hemisphere](https://www.kaggle.com/datasets/saurabhshahane/northern-hemisphere-horizontal-photovoltaic)
+
+#### **Notebook Link:** 
+- Please find the Google Colab link provided below for an in-depth exploration of our data analysis and corresponding graphs. To enhance your understanding, we've utilized Plotly for visualization, offering dynamic charts and plots.It's worth noting that these dynamic visualizations are not saved on GitHub, so the Colab environment is essential for accessing them effectively.
+- [Energy Forecasting Model](https://colab.research.google.com/drive/1zy4bHSD3aVoKNw62OoPv7KWO8cQDxxS-?usp=sharing)
 
 
 
