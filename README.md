@@ -112,12 +112,12 @@ The objective of this notebook is to provide a comprehensive analysis and optimi
 
 #### **Notebook Link:** 
 - Please find the Google Colab link provided below for an in-depth exploration of our data analysis and corresponding graphs. To enhance your understanding, we've utilized Plotly for visualization, offering dynamic charts and plots.It's worth noting that these dynamic visualizations are not saved on GitHub, so the Colab environment is essential for accessing them effectively.
-- [Tilt Angle Optimization and suggestions](https://colab.research.google.com/github/KaifAhmad1/SolarPack-Assessment/blob/main/Solar_Panel_Tilt_Angle_Optimization_and_Suggestions.ipynb)
+- [Tilt Angle Optimization and Suggestions Model](https://colab.research.google.com/github/KaifAhmad1/SolarPack-Assessment/blob/main/Solar_Panel_Tilt_Angle_Optimization_and_Suggestions.ipynb)
 
 
 #### **Datasets Used:** 
-[National Solar Radiation Database(NSRDB) Solar Radiation and Meteorological Dataset](https://www.kaggle.com/datasets/ibrahimkiziloklu/solar-radiation-dataset)
-[Horizontal photovoltaic power output data for 12 sites in the Northern Hemisphere](https://www.kaggle.com/datasets/saurabhshahane/northern-hemisphere-horizontal-photovoltaic)
+- [National Solar Radiation Database(NSRDB) Solar Radiation and Meteorological Dataset](https://www.kaggle.com/datasets/ibrahimkiziloklu/solar-radiation-dataset)
+- [Horizontal photovoltaic power output data for 12 sites in the Northern Hemisphere](https://www.kaggle.com/datasets/saurabhshahane/northern-hemisphere-horizontal-photovoltaic)
 
 
 
@@ -129,3 +129,8 @@ Mohd Kaif
 
 
 References 
+- [Solar Panel Tilt Angle Optimization Using Machine Learning Model: A Case Study of Daegu City, South Korea](https://www.mdpi.com/1996-1073/13/3/529)
+- [Optimal Photovoltaic Panel Direction and Tilt Angle Prediction Using Stacking Ensemble Learning](https://www.frontiersin.org/articles/10.3389/fenrg.2022.865413/full)
+- [Development of Hybrid Model based on Artificial Intelligence for Maximizing Solar Energy Yield](https://www.researchgate.net/publication/376601883_Development_of_Hybrid_Model_based_on_Artificial_Intelligence_for_Maximizing_Solar_Energy_Yield)
+- Development of Hybrid Model based on Artificial Intelligence for Maximizing Solar Energy Yield
+
